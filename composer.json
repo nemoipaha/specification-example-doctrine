@@ -1,0 +1,23 @@
+{
+    "name": "nemoi/specification-example-doctrine",
+    "description": "Specification pattern example using orm query builder from Doctrine.",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.16"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nemoi\\SpecificationExampleDoctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pavelnemoi",
+            "email": "pavel.n@paymentop.com"
+        }
+    ]
+}
